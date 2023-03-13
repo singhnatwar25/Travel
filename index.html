@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header1 {
+            display: inline-flex;
+            height: 50%;
+            width: 100%;
+            /* background-color: black; */
+            background-image: url(t13.avif);
+        }
+
+        h1 {
+            display: inline-block;
+            color: blanchedalmond;
+            margin-top: 2%;
+            margin-left: 2%;
+        }
+
+        .navbar {
+            display: flex;
+            padding-left: 17%;
+            margin-top: 2%;
+            text-decoration-line:underline;
+
+        }
+
+        .navbar li {
+            font-size: 20px;
+            display: inline-flex;
+            padding-left: 34px;
+            margin-left: 45px;
+            color: yellow;
+            /* border: 2px solid black; */
+        }
+
+        .navbar li a {
+            color: white;
+            /* background-color: black; */
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .navbar li a:hover {
+            color: rgb(204, 15, 75);
+            
+        }
+
+        main {
+            background-color: rgb(229, 219, 219);
+            width: 100%;
+
+        }
+
+        .searchbar {
+            background-image: url('t14.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            justify-content: center;
+        }
+
+        .search1 input {
+            margin-top: 25%;
+            margin-left: 34%;
+            margin-right: 1%;
+            padding-top: 2px;
+            padding-left: 82px;
+            font-size: 34px;
+            text-align: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .search1 button {
+            display: inline;
+            margin-right: 10px;
+            margin-left: -11px;
+            width: 5%;
+            background-color: #9014c1;
+            
+            font-size: 34px;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2%;
+            padding: 1%;
+        }
+
+
+        .box1 li {
+            display: inline-block;
+            margin: 1% 1% 2% 4%;
+            padding: 1%;
+            color: rgb(50, 181, 196);
+            border: 2px solid rgb(50, 181, 196);
+        }
+        .slidebox
+        {
+            display: flex;
+
+        }
+
+        .box2 img{
+            /* display: grid; */
+            margin: 24px;
+            box-sizing: border-box;
+            width: 199px;
+            height: 330px;
+        }
+
+        
+        .box3 img{
+            /* display: grid; */
+            margin: 24px;
+            box-sizing: border-box;
+            width: 199px;
+            height: 330px;
+        }
+
+        .box4 img{
+            /* display: inline-block; */
+            margin: 24px;
+            box-sizing: border-box;
+            width: 199px;
+            height: 330px;
+        }
+        .box5 img{
+            /* display: inline-block; */
+            margin: 24px;
+            box-sizing: border-box;
+            width: 199px;
+            height: 330px;
+        }
+        .box6 img{
+            /* display: inline-block; */
+            margin: 24px;
+            box-sizing: border-box;
+            width: 199px;
+            height: 330px;
+        }
+
+
+        footer {
+        
+            width: 100%;
+            height: 20px;
+            background-color: black;
+        }
+
+        footer p {
+            text-align: center;
+            /* padding: 170px; */
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header class="header1">
+        <h1> Travel Website</h1>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+
+    <main>
+        <div class="searchbar">
+            <div class="search1">
+                <input type="text" placeholder="where to go">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+
+
+
+        <h2>Find the perfect place To go Actives, hotels and MOre</h2>
+
+        <diV class="box1">
+            <ul>
+                <li>All</li>
+                <li>ADVENTURE</li>
+                <li>HIGH ADRENALINE</li>
+                <li>WATER SPORT</li>
+                <li>CULTURE & HISTORY</li>
+                <li>OTHER ACTIVES</li>
+            </ul>
+        </div>
+
+        <div class="slidebox">
+        <div class="box2">
+            <img src="t14.jpeg" alt="t12.avif">
+        </div>
+        <div class="box3">
+            <img src="mountain.jpeg" alt="t12.avif">
+        </div>
+        <div class="box4">
+            <img src="desert.avif" alt="t12.avif">
+        </div>
+        <div class="box5">
+            <img src="watersport.jpeg" alt="t12.avif">
+        </div>
+        <div class="box6">
+            <img src="t13.avif" alt="t12.avif">
+        </div>
+        </div>
+        
+    </main>
+    <footer>
+        <P> Copyright @ all reserved Travel website </P>
+    </footer>
+</body>
+
+</html>
